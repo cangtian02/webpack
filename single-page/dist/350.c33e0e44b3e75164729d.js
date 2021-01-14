@@ -1,0 +1,2 @@
+(self.webpackChunksingle_page=self.webpackChunksingle_page||[]).push([[350],{350:function(e,n,u){"use strict";function t(){return"----我被异步加载了---"}u.r(n),u.d(n,{default:function(){return t}})}}]);
+//# sourceMappingURL=350.c33e0e44b3e75164729d.js.map
