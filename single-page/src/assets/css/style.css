@@ -1,0 +1,4 @@
+body{color: #fff;}
+img{max-width: 100%;display: block;}
+
+.img{width: 100px;height: 100px;background: url(../img/3.png) no-repeat;background-size: 100% 100%;}
