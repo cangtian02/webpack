@@ -2,11 +2,17 @@
  * @Author: duiying
  * @CreateDate: Do not edit
  * @LastEditors: duiying
- * @LastEditTime: 2021-01-14 19:52:58
+ * @LastEditTime: 2021-01-15 14:34:46
  * @Description: ...
  */
 import Vue from 'vue'
 import Test from './test.vue'
+
+const HeaderTem = (data) => {
+  return (
+    <p>{data.props.name}</p>
+  )
+}
 
 const Header = Vue.component('com-header', {
   data: function () {
@@ -14,7 +20,12 @@ const Header = Vue.component('com-header', {
       name: '头部'
     }
   },
-  template: '<div>舒服舒服</div>'
+  render: function(h) {
+    return (
+      <HeaderTem name={this.name} />
+    )
+  },
+  // template: '<div>舒服舒服</div>'
 })
 
 const Template = (data) => {

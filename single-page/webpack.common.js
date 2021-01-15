@@ -2,7 +2,7 @@
  * @Author: duiying
  * @CreateDate: Do not edit
  * @LastEditors: duiying
- * @LastEditTime: 2021-01-13 15:18:42
+ * @LastEditTime: 2021-01-15 11:12:21
  * @Description: ...
  */
 const path = require('path');
@@ -30,7 +30,7 @@ module.exports = {
     // 输出html文件
     new HtmlWebpackPlugin({
       // 使用模板
-      template: './src/index.html',
+      template: './src/index.html'
     }),
   ],
   // 输出
