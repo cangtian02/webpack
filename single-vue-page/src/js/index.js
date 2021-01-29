@@ -2,7 +2,7 @@
  * @Author: duiying
  * @CreateDate: Do not edit
  * @LastEditors: duiying
- * @LastEditTime: 2021-01-15 14:34:46
+ * @LastEditTime: 2021-01-26 19:08:03
  * @Description: ...
  */
 import Vue from 'vue'
@@ -29,12 +29,9 @@ const Header = Vue.component('com-header', {
 })
 
 const Template = (data) => {
-  console.log(data)
   return (
     <div id="app">
-      <Header />
       <Test />
-      <p>{data.props.info}</p>
     </div>
   )
 }
